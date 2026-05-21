@@ -7,7 +7,7 @@ const Home = () => {
       <section className="hero-section">
         <nav className="nav-bar">
           <div className="logo-div">
-            <img src="/public/logo.jpg" alt="" />
+            <img src="/logo.jpg" alt="" />
           </div>
           <div className="nav-link-div">
             <ul>
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
           <div className="hero-right-div">
             <div>
-              <img src="/public/hero-img.jpg" alt="" />
+              <img src="/hero-img.jpg" alt="" />
             </div>
           </div>
         </div>
