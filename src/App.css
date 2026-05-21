@@ -1,0 +1,603 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", sans-serif;
+}
+:root {
+  --blue-clr: #11165c;
+}
+section{
+    padding: 50px 20px;
+}
+body{
+    background-image: url(/public/Untitled\ design.png);
+    background-size: 100% ;
+
+}
+/* Hero section start */
+
+/* nav bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  width: 90%;
+  /* padding: 20px; */
+}
+.nav-link-div ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.logo-div{
+    width: 15%;
+}
+.logo-div img{
+    width: 100%;
+}
+.nav-link-div ul li a,
+.nav-link-div ul li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.nav-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-btns button {
+  padding: 10px 20px;
+  background-color: var(--blue-clr);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.hero-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-main-div {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 10px;
+}
+.hero-left-div,
+.hero-left-div {
+  flex-basis: 50%;
+}
+.hero-left-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-left-div h1 {
+  font-size: 54px;
+}
+.hero-left-div p{
+    font-size: 22px;
+}
+.hero-right-div div{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hero-right-div div img{
+    width: 100%;
+    height: 100%;
+}
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-btns button{
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--blue-clr);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* Hero section ends */
+
+/* Book now section start */
+
+.book-now-div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.book-left-div, .book-right-div{
+    flex-basis: 50%;
+}
+.book-left-div div{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.book-left-div div img{
+    width: 100%;
+}
+.book-right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book-right-div div{
+    width: 90%;
+}
+.book-form-label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.book-form-label img{
+    width:25px
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-cont input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.form-cont input::placeholder{
+    font-size: 16px;
+}
+.book-now-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.book-now-btns button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blue-clr);
+    font-size: 18px;
+    color: white;
+}
+/* Book now section end */
+
+/* Destination section start */
+.destination-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.book-now-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.book-now-title h1{
+    font-size: 44px;
+}
+.book-now-title p{
+    font-size: 22px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue-clr);
+    padding: 10px;
+    border-radius: 20px;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+}
+.search-input input{
+    background: transparent;
+    color: white;
+    border:none;
+    padding: 5px;
+}
+.search-input input::placeholder{
+    color: white;
+}
+.search-bar-icon{
+    width: 25px;
+}
+.destination-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.destination-cont{
+    width: 250px;
+    height: 250px;
+    border-radius:10px;
+    overflow: hidden;
+    border: 5px solid white;
+}
+.destination-cont img{
+    width: 100%;
+    height: 100%;
+}
+.cont-1{
+    transform: rotate(5deg);
+}
+.cont-2{
+    transform: rotate(-10deg);
+}
+.cont-3{
+    transform: rotate(5deg);
+}
+.cont-4{
+    transform: rotate(-10deg);
+
+}
+/* Destination section end */
+
+/*  vacation section start */
+.vacation-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.vacation-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.vacation-title h1{
+    font-size: 44px;
+}
+.vacation-title p{
+    font-size: 22px;
+}
+.vacation-card-row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.vacation-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vacation-img-div{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.vacation-img-div img{
+    width: 100%;
+}
+.vacation-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 5px;
+}
+.vacation-details div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* vaction section end */
+
+/* Blog section start */
+.blog-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.blog-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.blog-title h1{
+    font-size: 44px;
+}
+.blog-title p{
+    font-size: 22px;
+}
+.blog-row-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.blog-left-div,.blog-right-div{
+    flex-basis: 50%;
+}
+.blog-left-div div{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.blog-left-div div img{
+    width: 100%;
+}
+.blog-right-div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+}
+.banner-div{
+    display: flex;
+    align-items: center;
+}
+.banner-right-div {
+    flex-basis: 60%;
+}
+.banner-left-div{
+    flex-basis: 40%;
+}
+.banner-left-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.banner-right-div div{
+    width: 100%;
+    height: 100%;
+}
+.banner-right-div div img{
+    width: 100%;
+    height: 100%;
+}
+/* Blog section end */
+
+/* Footer section start */
+footer{
+    background: #111;
+    color: white;
+}
+.footer-div{
+    padding: 50px 70px;
+}
+.footer-upper-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.subscribe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: gray;
+}
+.footer-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-lower-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.footer-lower-div div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.f-icons{
+    display: flex;
+    align-items: center;
+}
+.f-icons img{
+    width: 25px;
+}
+/* Footer section end */
+
+/* ════════════════════════════════════════
+   TABLET  (max-width: 1024px)
+════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  /* Navbar */
+  .logo-div { width: 20%; }
+  .nav-link-div ul { gap: 16px; }
+  .nav-link-div ul li a { font-size: 14px; }
+  .nav-btns button { padding: 8px 14px; font-size: 14px; }
+
+  /* Hero */
+  .hero-left-div h1 { font-size: 38px; }
+  .hero-left-div p { font-size: 17px; }
+  .hero-btns button { font-size: 15px; }
+
+  /* Destination cards */
+  .destination-cont { width: 180px; height: 180px; }
+
+  /* Vacation cards */
+  .vacation-img-div { width: 200px; height: 200px; }
+
+  /* Footer */
+  .footer-div { padding: 40px 30px; }
+}
+
+/* ════════════════════════════════════════
+   MOBILE  (max-width: 768px)
+════════════════════════════════════════ */
+@media (max-width: 768px) {
+  section { padding: 40px 16px; }
+
+  /* ── Navbar ── */
+  .nav-bar {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 12px 16px;
+    gap: 12px;
+  }
+  .logo-div { width: 30%; }
+  .nav-link-div { order: 3; width: 100%; }
+  .nav-link-div ul {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 8px 0;
+    justify-content: center;
+  }
+  .nav-btns { gap: 10px; }
+  .nav-btns button { padding: 8px 12px; font-size: 13px; }
+
+  /* ── Hero ── */
+  .hero-main-div {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+  }
+  .hero-left-div { flex-basis: 100%; align-items: center; }
+  .hero-right-div { flex-basis: 100%; width: 75%; margin: 0 auto; }
+  .hero-left-div h1 { font-size: 28px; }
+  .hero-left-div p { font-size: 15px; }
+  .hero-btns { justify-content: center; }
+  .hero-btns button { font-size: 14px; padding: 8px 16px; }
+
+  /* ── Book Now ── */
+  .book-now-div {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .book-left-div,
+  .book-right-div {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .book-right-div div { width: 100%; }
+  .booking-form { gap: 30px; }
+  .form-row { flex-direction: column; align-items: stretch; }
+  .book-now-btns { justify-content: center; }
+  .book-now-btns button { font-size: 15px; flex: 1; }
+
+  /* ── Destination ── */
+  .book-now-title h1 { font-size: 28px; }
+  .book-now-title p { font-size: 15px; }
+  .destination-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+  .destination-cont {
+    width: 140px;
+    height: 140px;
+    transform: none !important;
+  }
+
+  /* ── Vacation ── */
+  .vacation-title h1 { font-size: 28px; }
+  .vacation-title p { font-size: 15px; }
+  .vacation-card-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .vacation-card { align-items: center; }
+  .vacation-img-div { width: 100%; height: 160px; }
+
+  /* ── Blog ── */
+  .blog-title h1 { font-size: 28px; }
+  .blog-title p { font-size: 15px; }
+  .blog-row-div {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .blog-left-div,
+  .blog-right-div {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .blog-right-div { text-align: center; align-items: center; }
+
+  /* ── Banner ── */
+  .banner-div { flex-direction: column; }
+  .banner-left-div,
+  .banner-right-div {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .banner-left-div { align-items: center; text-align: center; padding: 10px 0; }
+
+  /* ── Footer ── */
+  .footer-div { padding: 30px 16px; }
+  .footer-upper-div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .footer-lower-div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .footer-cont h1{
+    font-size: 18px;
+  }
+  .nav-link-div{
+    display: none;
+  }
+  .footer-lower-div div { justify-content: center; flex-wrap: wrap; }
+}
+
+/* ════════════════════════════════════════
+   SMALL MOBILE  (max-width: 480px)
+════════════════════════════════════════ */
+@media (max-width: 480px) {
+  .hero-left-div h1 { font-size: 22px; }
+  .hero-right-div { width: 90%; }
+
+  .destination-row { grid-template-columns: 1fr 1fr; }
+  .destination-cont { width: 130px; height: 130px; }
+
+  .vacation-card-row { grid-template-columns: 1fr; }
+  .vacation-img-div { width: 100%; height: 200px; }
+
+  .book-now-title h1 { font-size: 22px; }
+  .vacation-title h1, .blog-title h1 { font-size: 24px; }
+
+  .nav-btns { flex-wrap: wrap; justify-content: center; }
+  .logo-div { width: 40%; }
+}
