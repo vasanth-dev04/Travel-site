@@ -412,6 +412,9 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+.footer-cont h1{
+    font-size: 22px;
+}
 .footer-lower-div{
     display: flex;
     align-items: center;
